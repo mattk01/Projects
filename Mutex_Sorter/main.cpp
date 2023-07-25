@@ -6,7 +6,6 @@
 using namespace std;
 
 /*
- * Project: Homework 3 Part 3
  * Author: Matt Kinderman
  * This program uses the mutex to put a file of numbers ranging from 0-99 into 1 of 10 bins.
  * Each bin represents 10 numbers: 0-9, 10-19, ..., 90-99.
