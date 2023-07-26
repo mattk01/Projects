@@ -51,7 +51,7 @@ void fillBins(string fileAddress){
 int main(){
     pthread_t newThread;
     //string inputFileAddress = "/Users/mattkinderman/Documents/Junior_Year/Comp_3500/Homework3_2/HW3.txt"; // Used for mac
-    string inputFileAddress = "HW3.txt"; // Used for non-mac
+    string inputFileAddress = "input.txt"; // Used for non-mac
     fillBins(inputFileAddress);
 
     for (int i = 0; i < 10; i++) { // Find count for each group of numbers.
