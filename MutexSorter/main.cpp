@@ -50,7 +50,7 @@ void fillBins(string fileAddress){
 int main() {
 
     //string inputFileAddress = "/Users/mattkinderman/Documents/Junior_Year/Comp_3500/Homework3_3/HW3.txt"; // Used for mac
-    string inputFileAddress = "HW3.txt"; // Used for non-mac
+    string inputFileAddress = "input.txt"; // Used for non-mac
     fillBins(inputFileAddress);
 
     thread t1(getBinCount);
